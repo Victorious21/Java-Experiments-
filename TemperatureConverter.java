@@ -28,7 +28,7 @@ public class TemperatureConverter
         Scanner scan = new Scanner(System.in);
 
         //Asking for user input
-        System.out.println("What type of temperature conversion? \n - Enter C to convert from F to C \n - Enter F to convert to convert from C to F \n - Enter K to convert to convert from C to K");
+        System.out.println("What type of temperature conversion? \n - Enter C to convert from F to C \n - Enter F to convert from C to F \n - Enter K to convert from C to K");
         String type = scan.nextLine();
 
         //Checks if user input is correct and follows instructions - to not throw error of course :)
